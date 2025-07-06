@@ -1,0 +1,18 @@
+export const ICONS = {
+  wavingHand: 'assets/icons/waving-hand.png',
+  github: 'assets/icons/github.svg',
+  linkedin: 'assets/icons/linkedin.svg',
+  angular: 'assets/icons/angular.png',
+  bootstrap: 'assets/icons/bootstrap.svg',
+  css: 'assets/icons/css.svg',
+  git: 'assets/icons/git.svg',
+  html: 'assets/icons/html-5.svg',
+  javascript: 'assets/icons/javascript.svg',
+  mongo: 'assets/icons/mongo.svg',
+  node: 'assets/icons/node.svg',
+  react: 'assets/icons/react.svg',
+  tailwind: 'assets/icons/tailwind.svg',
+  typescript: 'assets/icons/typescript.svg',
+  vite: 'assets/icons/vite.svg',
+  mysql: 'assets/icons/mysql.svg',
+};

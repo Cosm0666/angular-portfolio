@@ -1,0 +1,20 @@
+<div class="proj-wrapper">
+  <div class="description" [style.height]="height">
+    <div class="desc-text">
+      <h1>{{ title }}</h1>
+      <h3 style="margin-bottom: 10px">Descrição</h3>
+      <p>{{ description }}</p>
+      <h3 style="margin-top: 5px">Tech</h3>
+      <div class="tech">
+        <span *ngFor="let t of tech">{{ t }}</span>
+      </div>
+      <div class="proj-links">
+        <a *ngIf="linkUrl1" [href]="linkUrl1" style="color: aquamarine;">Demo</a>
+        <a [href]="linkUrl2" style="color: aqua;">Github</a>
+      </div>
+    </div>
+    <div class="img-wrapper">
+      <img [src]="imageUrl" alt="image" />
+    </div>
+  </div>
+</div>
