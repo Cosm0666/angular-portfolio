@@ -65,3 +65,13 @@
     color: white;
   }
 }
+
+@media (max-width: 600px) {
+  .proj-wrapper .description {
+    flex-direction: column; 
+  }
+
+  .proj-wrapper .description .img-wrapper {
+    display: none; 
+  }
+}

@@ -3,6 +3,7 @@
   max-width: 570px;
   margin: 32px auto 0 auto; 
 
+
   h2 {
     color: white;       
     margin: 0;
@@ -11,4 +12,10 @@
 }
 .custom-height {
   height: 120px;
+}
+
+@media (max-width: 600px) {
+  .proj-title {
+    margin: 20px;
+  }
 }
